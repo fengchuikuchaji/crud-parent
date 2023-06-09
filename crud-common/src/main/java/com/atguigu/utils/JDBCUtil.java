@@ -21,6 +21,7 @@ public class JDBCUtil {
     private static DataSource dataSource;
     static {
         try {
+            System.out.println("热修复.....");
             InputStream in = JDBCUtil.class.getClassLoader().getResourceAsStream("druid.properties");
             Properties properties = new Properties();
             properties.load(in);
