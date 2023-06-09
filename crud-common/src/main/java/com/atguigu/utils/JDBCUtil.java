@@ -24,6 +24,7 @@ public class JDBCUtil {
             System.out.println("热修复.....");
             System.out.println("张三修改代码.......");
             System.out.println("李四修改代码.....");
+            System.out.println("李四第二次修改代码.....");
             System.out.println("张三第二次修改代码.....");
             InputStream in = JDBCUtil.class.getClassLoader().getResourceAsStream("druid.properties");
             Properties properties = new Properties();
